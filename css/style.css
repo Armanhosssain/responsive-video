@@ -1,0 +1,116 @@
+.navbar .nav-item {
+  padding-left: 1em; }
+  .navbar .nav-item .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 650px; }
+
+.carousel-img-1 {
+  background: url("../img/slider3.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/slider2.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/slider3.jpg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/slider1.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  position: relative;
+  background: url("../img/getstarted-back-img.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#home-video {
+  position: relative;
+  background: url("../img/slider3.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #home-video .fa {
+    font-size: 50px;
+    color: #ff0000; }
+
+#gallery img {
+  min-height: 250px;
+  width: 100%; }
+
+#footer {
+  background: #000000; }
+
+#about-us {
+  background: url("../img/about-bg-img.jpeg");
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px; }
+
+#testimonial -slick-prev::before {
+  color: #000; }
+
+#blog img {
+  height: 236px;
+  width: 100%; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; } }
+
+@media (max-width: 700px) {
+  .carousel-inner h2 {
+    font-size: 3rem !important; }
+  .carousel-inner .lead {
+    font-size: 1rem; } }
+
+@media (max-width: 400px) {
+  .carousel-inner h2 {
+    font-size: 2rem !important; }
+  .carousel-inner .lead {
+    font-size: 1rem; } }
+
+@media (max-width: 450px) {
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 380px) {
+  #getstarted {
+    min-height: 350px; } }
+
+@media (max-width: 992px) {
+  #info .lead {
+    font-size: 1rem; } }
+
+@media (max-width: 767px) {
+  #info img {
+    margin-top: 20px; } }
